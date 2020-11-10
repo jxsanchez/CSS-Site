@@ -1,0 +1,138 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+    line-height: 2;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+hr {
+    border-color: #d3d3d3;
+    border-style: dotted none none;
+    border-width: 5px;
+    height: 0;
+    margin: 100px auto;
+    width: 3%;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    padding: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.jesus-img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.coding-img {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.drawing-img {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.about-me {
+    margin: 0 auto;
+    width: 35%;
+}
+
+.contact-msg {
+    margin: 0 auto;
+    width: 35%;
+}
+
+.skill-row {
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.footer-link {
+    margin-right: 30px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+.contact-button {
+    background: linear-gradient(#11CDD4, #2980B9);
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 50px 0 0 0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background: linear-gradient(#30E3CB, #2BC4AD);
+}
